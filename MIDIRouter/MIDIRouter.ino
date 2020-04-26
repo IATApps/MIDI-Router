@@ -55,10 +55,34 @@
 #endif // end IDE
 
 // Set parameters
+#define MIDI_SERIAL_SUPPORT
+#define MIDI_USB_SUPPORT
+#define SDCARD_SUPPORT
+#define TFT_DISPLAY
+#define STARTUP_PICTURE
 
 
 // Include application, user and local libraries
 // !!! Help http://bit.ly/2CL22Qp
+// Teensy - Application Libraries
+#include <elapsedMillis.h>
+#include <stdint.h>
+
+// Teensy Application Libraries
+#include <Wire.h>
+#include <SPI.h>
+#include <USBHost_t36.h> // access to USB MIDI devices (plugged into 2nd USB port)
+#include <Encoder.h>
+#include <Bounce2.h>
+#include <EEPROM.h>
+
+// User Libraries
+#include "SdFat.h"
+#include "GSL1680.h"            // modified firmware, see github.com/insolace
+#include "Adafruit_GFX.h"       // vvvvv
+#include "Adafruit_RA8875.h"    // both of these are modified, see github.com/insolace
+#include "MIDI.h"
+
 #include "MIDIRouter_Library.h"
 
 

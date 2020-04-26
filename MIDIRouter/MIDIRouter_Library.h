@@ -42,45 +42,49 @@
 ///
 // !!! Help: https://bit.ly/2ifs2e2
 
+#pragma once
 
-// Core library for code-sense - IDE-based
-// !!! Help: https://bit.ly/2AdU7cu
-#if defined(WIRING) // Wiring specific
-#include "Wiring.h"
-#elif defined(MAPLE_IDE) // Maple specific
-#include "WProgram.h"
-#elif defined(ROBOTIS) // Robotis specific
-#include "libpandora_types.h"
-#include "pandora.h"
-#elif defined(MPIDE) // chipKIT specific
-#include "WProgram.h"
-#elif defined(DIGISPARK) // Digispark specific
-#include "Arduino.h"
-#elif defined(ENERGIA) // LaunchPad specific
-#include "Energia.h"
-#elif defined(LITTLEROBOTFRIENDS) // LittleRobotFriends specific
-#include "LRF.h"
-#elif defined(MICRODUINO) // Microduino specific
-#include "Arduino.h"
-#elif defined(TEENSYDUINO) // Teensy specific
-#include "Arduino.h"
-#elif defined(REDBEARLAB) // RedBearLab specific
-#include "Arduino.h"
-#elif defined(RFDUINO) // RFduino specific
-#include "Arduino.h"
-#elif defined(SPARK) || defined(PARTICLE) // Particle / Spark specific
-#include "application.h"
-#elif defined(ARDUINO) // Arduino 1.0 and 1.5 specific
-#include "Arduino.h"
-#else // error
-#error Platform not defined
-#endif // end IDE
+#include "MIDIRouter_Library_Defs.h"
+#include "MRPorts.h"
+#include "MidiFilter.h"
+#include <Encoder.h>
+#include <Bounce2.h>
 
-#ifndef MIDIRouter_RELEASE
-///
-/// @brief	Release
-///
-#define MIDIRouter_RELEASE 100
+#ifdef MIDIROUTER_LIBRARY_H
+#define MIDIROUTER_LIBRARY_H
 
+BEGIN_MIDIROUTER_NAMESPACE
 
-#endif // MIDIRouter_RELEASE
+struct MIDIRouterSetup {
+    uint8_t encpin1;
+    uint8_t encpin2;
+    uint8_t enc_button_pin;
+};
+
+class MIDIRouter_Lib {
+    public:
+    
+    MIDIRouter_Lib();
+    
+    MRInputPort *inputAt(int index);
+    MROutputPort *outputAt(int index);
+    static MidiFilter inputPortFilter;
+    
+    void SetupEncoder(uint8_t encpin1, uint8_t encpin2, uint8_t enc_button_pin);
+    Encoder &encoder();
+    Bounce &encPush();
+    
+    private:
+    static MRInputPort inputs[];
+    static MROutputPort outputs[];
+    
+    Encoder *_encoder;
+    Bounce *_encPush;
+};
+
+END_MIDIROUTER_NAMESPACE
+
+#include "MIDIRouter_Library.hpp"
+
+#endif // MIDIROUTER_LIBRARY_H
+

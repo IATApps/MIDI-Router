@@ -16,7 +16,10 @@
 // See 			MIDIRouter_Library.h and ReadMe.txt for references
 //
 
-
 #include "MIDIRouter_Library.h"
+#include "MIDIRouter_Library_Defs.h"
 
 // Code
+BEGIN_MIDIROUTER_NAMESPACE
+
+END_MIDIROUTER_NAMESPACE

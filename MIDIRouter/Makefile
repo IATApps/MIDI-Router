@@ -21,13 +21,39 @@
 # !!! Help: http://bit.ly/2hYLBDC
 # default = 0 = none
 #
-APP_LIBS_LIST = 0
+# TEENSY : common = [A] ADC AccelStepper 
+#   Adafruit-GFX-Library Adafruit_CC3000 Adafruit_NeoPixel 
+#   Adafruit_RA8875 Adafruit_STMPE610 Adafruit_VS1053 
+#   Adafruit_nRF8001 AltSoftSerial Artnet Audio [B] Bounce 
+#   Bounce2 [C] CapacitiveSensor CryptoAccel [D] DS1307RTC 
+#   DmxSimple DogLcd [E] EEPROM EasyTransfer 
+#   EasyTransferI2C Encoder Entropy Ethernet [F] FastCRC 
+#   FastLED FlexCAN FlexCAN_T4 FlexiTimer2 FreqCount 
+#   FreqMeasure FreqMeasureMulti FrequencyTimer2 [G] GSL1680 
+#   [I] ILI9341_t3 ILI9488_t3 IRremote [K] Keypad 
+#   [L] LedControl LedDisplay LiquidCrystal 
+#   LiquidCrystalFast LowPower [M] MFRC522 Metro MsTimer2 
+#   [N] NXPMotionSense [O] OSC OctoWS2811 OneWire 
+#   [P] PS2Keyboard PWMServo Ping PulsePosition [Q] QuadEncoder 
+#   [R] RadioHead ResponsiveAnalogRead [S] SD SPI SPIFlash 
+#   ST7565 ST7735_t3 SdFat SerialFlash Servo ShiftPWM 
+#   Snooze SoftPWM SoftwareSerial [T] TFT_ILI9163C Talkie 
+#   TeensyThreads Time TimeAlarms TimerOne TimerThree 
+#   TinyGPS Tlc5940 TouchScreen [U] USBHost_t36 UTFT 
+#   [V] VirtualWire [W] WS2812Serial Wire [X] XBee 
+#   XPT2046_Touchscreen [a] arduino_midi_library [i] i2c_t3 
+#   [k] ks0108 [o] openGLCD [s] ssd1351 [x] x10 
+#
+APP_LIBS_LIST = Wire SPI USBHost_t36 Encoder Bounce2 EEPROM
 
 # List user's libraries here
 # !!! Help: http://bit.ly/2AEscDx
 # default = 0 = none
 #
-USER_LIBS_LIST = 0
+# USER = [A] Adafruit-GFX-Library Adafruit_RA8875 [G] GSL1680 
+#   [M] MIDIRouter_Lib [S] SdFat [a] arduino_midi_library 
+#
+USER_LIBS_LIST = SdFat GSL1680 Adafruit-GFX-Library Adafruit_RA8875 arduino_midi_library
 
 # List local libraries here
 # !!! Help: http://bit.ly/2juEP91
@@ -97,6 +123,7 @@ NO_SERIAL_CONSOLE = false
 #
 #TEENSY_USB = USB_SERIAL
 #TEENSY_LAYOUT = LAYOUT_US_ENGLISH
+TEENSY_USB = USB_MIDI16_SERIAL
 
 
 # Teensy CPU options (default)
@@ -110,6 +137,8 @@ NO_SERIAL_CONSOLE = false
 #
 #TEENSY_F_CPU = 48000000
 #TEENSY_OPTIMISATION = -Os
+TEENSY_F_CPU = 180000000
+TEENSY_OPTIMISATION = -Os
 
 
 # Parameters
@@ -127,12 +156,13 @@ NO_SERIAL_CONSOLE = false
 # If not defined, BOARD_PORT = /dev/tty.usb* (default)
 #
 #BOARD_PORT = /dev/tty.usbmodem*
+BOARD_PORT = /dev/cu.usbmodem*
 
 # Xcode takes SKETCHBOOK_DIR from preferences.txt
 # If not defined, each IDE has its own SKETCHBOOK_DIR (default)
 # To share the same SKETCHBOOK_DIR along all IDEs, define
 #
-#SKETCHBOOK_DIR =
+SKETCHBOOK_DIR = ~/Documents/Arduino
 
 # SERIAL_BAUDRATE for the serial console, 9600 by default
 # !!! Help: http://bit.ly/2AUEcgp
@@ -194,3 +224,4 @@ BUILDS_PATH       := $(BUILT_PRODUCTS_DIR)
 BUILDS_PATH_SPACE := $(BUILDS_PATH)
 
 include $(MAKEFILE_PATH)/Step1.mk
+
