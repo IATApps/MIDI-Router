@@ -6,13 +6,12 @@
 //  Copyright © 2020 Isolace / Ingenious Arts and Technologies LLC. All rights reserved.
 //
 
+#include "MIDIRouter_Library_Namespace.h"
+
 #pragma once
 
-#ifdef MIDIROUTER_LIBRARY_DEFS_H
+#ifndef MIDIROUTER_LIBRARY_DEFS_H
 #define MIDIROUTER_LIBRARY_DEFS_H
-
-
-#include "MIDIRouter_Library_Namespace.h"
 
 // Core library for code-sense - IDE-based
 // !!! Help: https://bit.ly/2AdU7cu

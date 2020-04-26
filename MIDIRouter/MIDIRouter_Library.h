@@ -44,14 +44,14 @@
 
 #pragma once
 
+//#ifndef MIDIROUTER_LIBRARY_H
+//#define MIDIROUTER_LIBRARY_H
+
 #include "MIDIRouter_Library_Defs.h"
 #include "MRPorts.h"
 #include "MidiFilter.h"
 #include <Encoder.h>
 #include <Bounce2.h>
-
-#ifdef MIDIROUTER_LIBRARY_H
-#define MIDIROUTER_LIBRARY_H
 
 BEGIN_MIDIROUTER_NAMESPACE
 
@@ -86,5 +86,5 @@ END_MIDIROUTER_NAMESPACE
 
 #include "MIDIRouter_Library.hpp"
 
-#endif // MIDIROUTER_LIBRARY_H
+//#endif // MIDIROUTER_LIBRARY_H
 

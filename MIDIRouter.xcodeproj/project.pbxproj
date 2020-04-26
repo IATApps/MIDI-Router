@@ -1699,6 +1699,7 @@
 		AA2A200425180510AA000819 /* unit-tests.h in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA000819 /* unit-tests.h */; };
 		AA2A200425180510AA00081A /* unit-tests_Namespace.h in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA00081A /* unit-tests_Namespace.h */; };
 		C50FE597245515AE00371593 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C50FE596245515AE00371593 /* main.cpp */; };
+		C50FE5F12455237200371593 /* name.c in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5EE2455237200371593 /* name.c */; };
 		C52FE5A9245515AE00371593 /* MIDIRouter_Library.h in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5A9245515AE00371593 /* MIDIRouter_Library.h */; };
 		C52FE5AC245515AE00371593 /* MIDIRouter.ino in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5AC245515AE00371593 /* MIDIRouter.ino */; };
 /* End PBXBuildFile section */
@@ -3413,7 +3414,6 @@
 		C50FE5A7245515AE00371593 /* Teensy LC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Teensy LC.xcconfig"; sourceTree = "<group>"; };
 		C50FE5A8245515AE00371593 /* My Board.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "My Board.xcconfig"; sourceTree = "<group>"; };
 		C50FE5A9245515AE00371593 /* MIDIRouter_Library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIDIRouter_Library.h; sourceTree = "<group>"; };
-		C50FE5AA245515AE00371593 /* MIDIRouter_Library.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MIDIRouter_Library.cpp; sourceTree = "<group>"; };
 		C50FE5AC245515AE00371593 /* MIDIRouter.ino */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; path = MIDIRouter.ino; sourceTree = "<group>"; };
 		C50FE5DF2455166100371593 /* MIDIRouter_Library_Defs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIDIRouter_Library_Defs.h; sourceTree = "<group>"; };
 		C50FE5E02455167B00371593 /* MIDIRouter_Library_Namespace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIDIRouter_Library_Namespace.h; sourceTree = "<group>"; };
@@ -3424,6 +3424,15 @@
 		C50FE5E5245518E800371593 /* MidiFilter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MidiFilter.hpp; sourceTree = "<group>"; };
 		C50FE5E6245518E900371593 /* MRPorts.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MRPorts.hpp; sourceTree = "<group>"; };
 		C50FE5E7245518F600371593 /* MIDIRouter_Library.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MIDIRouter_Library.hpp; sourceTree = "<group>"; };
+		C50FE5E82455237000371593 /* ColorCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorCalc.h; sourceTree = "<group>"; };
+		C50FE5E92455237000371593 /* MR_EEPROM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MR_EEPROM.h; sourceTree = "<group>"; };
+		C50FE5EA2455237000371593 /* MR_TOUCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MR_TOUCH.h; sourceTree = "<group>"; };
+		C50FE5EB2455237100371593 /* MR_DAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MR_DAC.h; sourceTree = "<group>"; };
+		C50FE5EC2455237100371593 /* MR_DRAW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MR_DRAW.h; sourceTree = "<group>"; };
+		C50FE5ED2455237100371593 /* MR_TXT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MR_TXT.h; sourceTree = "<group>"; };
+		C50FE5EE2455237200371593 /* name.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = name.c; sourceTree = "<group>"; };
+		C50FE5EF2455237200371593 /* MR_MIDI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MR_MIDI.h; sourceTree = "<group>"; };
+		C50FE5F02455237200371593 /* MR_UTIL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MR_UTIL.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -7227,7 +7236,6 @@
 				C50FE5E7245518F600371593 /* MIDIRouter_Library.hpp */,
 				C50FE5DF2455166100371593 /* MIDIRouter_Library_Defs.h */,
 				C50FE5E02455167B00371593 /* MIDIRouter_Library_Namespace.h */,
-				C50FE5AA245515AE00371593 /* MIDIRouter_Library.cpp */,
 				C50FE5E2245518E800371593 /* MRIOInterface.h */,
 				C50FE5E4245518E800371593 /* MRIOInterface.hpp */,
 				C50FE5E3245518E800371593 /* MRPorts.h */,
@@ -7235,6 +7243,15 @@
 				C50FE5E1245518E800371593 /* MidiFilter.h */,
 				C50FE5E5245518E800371593 /* MidiFilter.hpp */,
 				C50FE5AC245515AE00371593 /* MIDIRouter.ino */,
+				C50FE5E82455237000371593 /* ColorCalc.h */,
+				C50FE5EB2455237100371593 /* MR_DAC.h */,
+				C50FE5EC2455237100371593 /* MR_DRAW.h */,
+				C50FE5E92455237000371593 /* MR_EEPROM.h */,
+				C50FE5EF2455237200371593 /* MR_MIDI.h */,
+				C50FE5EA2455237000371593 /* MR_TOUCH.h */,
+				C50FE5ED2455237100371593 /* MR_TXT.h */,
+				C50FE5F02455237200371593 /* MR_UTIL.h */,
+				C50FE5EE2455237200371593 /* name.c */,
 				AAAA200425180510AA000000 /* Resources */,
 				C50FE59C245515AE00371593 /* Configurations */,
 			);
@@ -7898,6 +7915,7 @@
 				AA2A200425180510AA000142 /* usb_api.cpp in Sources */,
 				AA2A200425180510AA000143 /* usb_api.h in Sources */,
 				AA2A200425180510AA000144 /* usb_private.h in Sources */,
+				C50FE5F12455237200371593 /* name.c in Sources */,
 				AA2A200425180510AA000146 /* core_id.h in Sources */,
 				AA2A200425180510AA000147 /* usb.c in Sources */,
 				AA2A200425180510AA000148 /* usb_api.cpp in Sources */,

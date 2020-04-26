@@ -168,7 +168,7 @@ SKETCHBOOK_DIR = ~/Documents/Arduino
 # !!! Help: http://bit.ly/2AUEcgp
 # Uncomment and specify another speed
 #
-#SERIAL_BAUDRATE = 115200
+SERIAL_BAUDRATE = 115200
 
 # OPTIMISATION for the optimisation and debugger levels
 # !!! Help: http://bit.ly/2kheSLz

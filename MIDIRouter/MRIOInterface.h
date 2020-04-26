@@ -5,12 +5,12 @@
 //  Created by Kurt Arnlund on 4/14/20.
 //  Copyright © 2020 Kurt Arnlund. All rights reserved.
 //
-#pragma once
-
 #include "MIDIRouter_Library_Defs.h"
 #include <MIDI.h>
 
-#ifdef MIDIROUTER_LIBRARY_MRIOInterface_H
+#pragma once
+
+#ifndef MIDIROUTER_LIBRARY_MRIOInterface_H
 #define MIDIROUTER_LIBRARY_MRIOInterface_H
 
 BEGIN_MIDIROUTER_NAMESPACE

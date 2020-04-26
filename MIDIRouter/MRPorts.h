@@ -5,11 +5,11 @@
 */
 #pragma once
 
+#ifndef MIDIROUTER_MIDIPORTS_H
+#define MIDIROUTER_MIDIPORTS_H
+
 #include "MIDIRouter_Library_Defs.h"
 #include "MidiFilter.h"
-
-#ifdef MIDIROUTER_MIDIPORTS_H
-#define MIDIROUTER_MIDIPORTS_H
 
 BEGIN_MIDIROUTER_NAMESPACE
 
@@ -44,6 +44,6 @@ class MROutputPort : public MRPort {
 
 END_MIDIROUTER_NAMESPACE
 
-#endif // MIDIROUTER_MIDIPORTS_HPP
-
 #include "MRPorts.hpp"
+
+#endif // MIDIROUTER_MIDIPORTS_HPP
