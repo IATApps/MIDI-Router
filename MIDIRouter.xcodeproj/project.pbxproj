@@ -1593,17 +1593,6 @@
 		AA2A200425180510AA00079B /* gslX680firmware old.h in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA00079B /* gslX680firmware old.h */; };
 		AA2A200425180510AA00079C /* gslX680firmware.h in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA00079C /* gslX680firmware.h */; };
 		AA2A200425180510AA00079D /* gslfw.h in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA00079D /* gslfw.h */; };
-		AA2A200425180510AA00079F /* MIDIRouter_Lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA00079F /* MIDIRouter_Lib.cpp */; };
-		AA2A200425180510AA0007A0 /* MIDIRouter_Lib.h in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA0007A0 /* MIDIRouter_Lib.h */; };
-		AA2A200425180510AA0007A1 /* MIDIRouter_Lib.hpp in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA0007A1 /* MIDIRouter_Lib.hpp */; };
-		AA2A200425180510AA0007A2 /* MIDIRouter_Lib_Defs.h in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA0007A2 /* MIDIRouter_Lib_Defs.h */; };
-		AA2A200425180510AA0007A3 /* MIDIRouter_Lib_Namespace.h in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA0007A3 /* MIDIRouter_Lib_Namespace.h */; };
-		AA2A200425180510AA0007A4 /* MRIOInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA0007A4 /* MRIOInterface.h */; };
-		AA2A200425180510AA0007A5 /* MRIOInterface.hpp in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA0007A5 /* MRIOInterface.hpp */; };
-		AA2A200425180510AA0007A6 /* MRPorts.h in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA0007A6 /* MRPorts.h */; };
-		AA2A200425180510AA0007A7 /* MRPorts.hpp in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA0007A7 /* MRPorts.hpp */; };
-		AA2A200425180510AA0007A8 /* MidiFilter.h in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA0007A8 /* MidiFilter.h */; };
-		AA2A200425180510AA0007A9 /* MidiFilter.hpp in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA0007A9 /* MidiFilter.hpp */; };
 		AA2A200425180510AA0007AC /* BlockDriver.h in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA0007AC /* BlockDriver.h */; };
 		AA2A200425180510AA0007AE /* ArduinoFiles.h in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA0007AE /* ArduinoFiles.h */; };
 		AA2A200425180510AA0007AF /* ArduinoStream.h in Sources */ = {isa = PBXBuildFile; fileRef = AAAA200425180510AA0007AF /* ArduinoStream.h */; };
@@ -3291,17 +3280,6 @@
 		AAAA200425180510AA00079B /* gslX680firmware old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gslX680firmware old.h"; sourceTree = "<group>"; };
 		AAAA200425180510AA00079C /* gslX680firmware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gslX680firmware.h; sourceTree = "<group>"; };
 		AAAA200425180510AA00079D /* gslfw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gslfw.h; sourceTree = "<group>"; };
-		AAAA200425180510AA00079F /* MIDIRouter_Lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MIDIRouter_Lib.cpp; sourceTree = "<group>"; };
-		AAAA200425180510AA0007A0 /* MIDIRouter_Lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIRouter_Lib.h; sourceTree = "<group>"; };
-		AAAA200425180510AA0007A1 /* MIDIRouter_Lib.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIRouter_Lib.hpp; sourceTree = "<group>"; };
-		AAAA200425180510AA0007A2 /* MIDIRouter_Lib_Defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIRouter_Lib_Defs.h; sourceTree = "<group>"; };
-		AAAA200425180510AA0007A3 /* MIDIRouter_Lib_Namespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIRouter_Lib_Namespace.h; sourceTree = "<group>"; };
-		AAAA200425180510AA0007A4 /* MRIOInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRIOInterface.h; sourceTree = "<group>"; };
-		AAAA200425180510AA0007A5 /* MRIOInterface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRIOInterface.hpp; sourceTree = "<group>"; };
-		AAAA200425180510AA0007A6 /* MRPorts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRPorts.h; sourceTree = "<group>"; };
-		AAAA200425180510AA0007A7 /* MRPorts.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRPorts.hpp; sourceTree = "<group>"; };
-		AAAA200425180510AA0007A8 /* MidiFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiFilter.h; sourceTree = "<group>"; };
-		AAAA200425180510AA0007A9 /* MidiFilter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiFilter.hpp; sourceTree = "<group>"; };
 		AAAA200425180510AA0007AC /* BlockDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockDriver.h; sourceTree = "<group>"; };
 		AAAA200425180510AA0007AE /* ArduinoFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArduinoFiles.h; sourceTree = "<group>"; };
 		AAAA200425180510AA0007AF /* ArduinoStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArduinoStream.h; sourceTree = "<group>"; };
@@ -6891,7 +6869,6 @@
 				AAAA200425180510AA000756 /* Adafruit-GFX-Library */,
 				AAAA200425180510AA000795 /* Adafruit_RA8875 */,
 				AAAA200425180510AA000798 /* GSL1680 */,
-				AAAA200425180510AA00079E /* MIDIRouter_Lib */,
 				AAAA200425180510AA0007AA /* SdFat */,
 				AAAA200425180510AA0007EE /* arduino_midi_library */,
 			);
@@ -7001,24 +6978,6 @@
 				AAAA200425180510AA00079D /* gslfw.h */,
 			);
 			path = GSL1680;
-			sourceTree = "<group>";
-		};
-		AAAA200425180510AA00079E /* MIDIRouter_Lib */ = {
-			isa = PBXGroup;
-			children = (
-				AAAA200425180510AA00079F /* MIDIRouter_Lib.cpp */,
-				AAAA200425180510AA0007A0 /* MIDIRouter_Lib.h */,
-				AAAA200425180510AA0007A1 /* MIDIRouter_Lib.hpp */,
-				AAAA200425180510AA0007A2 /* MIDIRouter_Lib_Defs.h */,
-				AAAA200425180510AA0007A3 /* MIDIRouter_Lib_Namespace.h */,
-				AAAA200425180510AA0007A4 /* MRIOInterface.h */,
-				AAAA200425180510AA0007A5 /* MRIOInterface.hpp */,
-				AAAA200425180510AA0007A6 /* MRPorts.h */,
-				AAAA200425180510AA0007A7 /* MRPorts.hpp */,
-				AAAA200425180510AA0007A8 /* MidiFilter.h */,
-				AAAA200425180510AA0007A9 /* MidiFilter.hpp */,
-			);
-			path = MIDIRouter_Lib;
 			sourceTree = "<group>";
 		};
 		AAAA200425180510AA0007AA /* SdFat */ = {
@@ -7232,16 +7191,7 @@
 				C50FE598245515AE00371593 /* Makefile */,
 				C50FE59A245515AE00371593 /* Doxyfile */,
 				C50FE59B245515AE00371593 /* ReadMe.txt */,
-				C50FE5A9245515AE00371593 /* MIDIRouter_Library.h */,
-				C50FE5E7245518F600371593 /* MIDIRouter_Library.hpp */,
-				C50FE5DF2455166100371593 /* MIDIRouter_Library_Defs.h */,
-				C50FE5E02455167B00371593 /* MIDIRouter_Library_Namespace.h */,
-				C50FE5E2245518E800371593 /* MRIOInterface.h */,
-				C50FE5E4245518E800371593 /* MRIOInterface.hpp */,
-				C50FE5E3245518E800371593 /* MRPorts.h */,
-				C50FE5E6245518E900371593 /* MRPorts.hpp */,
-				C50FE5E1245518E800371593 /* MidiFilter.h */,
-				C50FE5E5245518E800371593 /* MidiFilter.hpp */,
+				C50FE5F22455276B00371593 /* MIDIRouter_Library */,
 				C50FE5AC245515AE00371593 /* MIDIRouter.ino */,
 				C50FE5E82455237000371593 /* ColorCalc.h */,
 				C50FE5EB2455237100371593 /* MR_DAC.h */,
@@ -7275,6 +7225,23 @@
 				C50FE5A8245515AE00371593 /* My Board.xcconfig */,
 			);
 			path = Configurations;
+			sourceTree = "<group>";
+		};
+		C50FE5F22455276B00371593 /* MIDIRouter_Library */ = {
+			isa = PBXGroup;
+			children = (
+				C50FE5A9245515AE00371593 /* MIDIRouter_Library.h */,
+				C50FE5E7245518F600371593 /* MIDIRouter_Library.hpp */,
+				C50FE5DF2455166100371593 /* MIDIRouter_Library_Defs.h */,
+				C50FE5E02455167B00371593 /* MIDIRouter_Library_Namespace.h */,
+				C50FE5E2245518E800371593 /* MRIOInterface.h */,
+				C50FE5E4245518E800371593 /* MRIOInterface.hpp */,
+				C50FE5E3245518E800371593 /* MRPorts.h */,
+				C50FE5E6245518E900371593 /* MRPorts.hpp */,
+				C50FE5E1245518E800371593 /* MidiFilter.h */,
+				C50FE5E5245518E800371593 /* MidiFilter.hpp */,
+			);
+			path = MIDIRouter_Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -9195,17 +9162,6 @@
 				AA2A200425180510AA00079B /* gslX680firmware old.h in Sources */,
 				AA2A200425180510AA00079C /* gslX680firmware.h in Sources */,
 				AA2A200425180510AA00079D /* gslfw.h in Sources */,
-				AA2A200425180510AA00079F /* MIDIRouter_Lib.cpp in Sources */,
-				AA2A200425180510AA0007A0 /* MIDIRouter_Lib.h in Sources */,
-				AA2A200425180510AA0007A1 /* MIDIRouter_Lib.hpp in Sources */,
-				AA2A200425180510AA0007A2 /* MIDIRouter_Lib_Defs.h in Sources */,
-				AA2A200425180510AA0007A3 /* MIDIRouter_Lib_Namespace.h in Sources */,
-				AA2A200425180510AA0007A4 /* MRIOInterface.h in Sources */,
-				AA2A200425180510AA0007A5 /* MRIOInterface.hpp in Sources */,
-				AA2A200425180510AA0007A6 /* MRPorts.h in Sources */,
-				AA2A200425180510AA0007A7 /* MRPorts.hpp in Sources */,
-				AA2A200425180510AA0007A8 /* MidiFilter.h in Sources */,
-				AA2A200425180510AA0007A9 /* MidiFilter.hpp in Sources */,
 				AA2A200425180510AA0007AC /* BlockDriver.h in Sources */,
 				AA2A200425180510AA0007AE /* ArduinoFiles.h in Sources */,
 				AA2A200425180510AA0007AF /* ArduinoStream.h in Sources */,
