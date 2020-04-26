@@ -21,28 +21,27 @@
 # !!! Help: http://bit.ly/2hYLBDC
 # default = 0 = none
 #
-# TEENSY : common = [A] ADC AccelStepper 
-#   Adafruit-GFX-Library Adafruit_CC3000 Adafruit_NeoPixel 
-#   Adafruit_RA8875 Adafruit_STMPE610 Adafruit_VS1053 
-#   Adafruit_nRF8001 AltSoftSerial Artnet Audio [B] Bounce 
-#   Bounce2 [C] CapacitiveSensor CryptoAccel [D] DS1307RTC 
+# TEENSY : common = [A] ADC AccelStepper Adafruit_CC3000 
+#   Adafruit_GFX Adafruit_NeoPixel Adafruit_RA8875 
+#   Adafruit_STMPE610 Adafruit_VS1053 Adafruit_nRF8001 
+#   AltSoftSerial Artnet Audio [B] Bounce Bounce2 
+#   [C] CapacitiveSensor CryptoAccel [D] DS1307RTC 
 #   DmxSimple DogLcd [E] EEPROM EasyTransfer 
 #   EasyTransferI2C Encoder Entropy Ethernet [F] FastCRC 
 #   FastLED FlexCAN FlexCAN_T4 FlexiTimer2 FreqCount 
-#   FreqMeasure FreqMeasureMulti FrequencyTimer2 [G] GSL1680 
-#   [I] ILI9341_t3 ILI9488_t3 IRremote [K] Keypad 
-#   [L] LedControl LedDisplay LiquidCrystal 
-#   LiquidCrystalFast LowPower [M] MFRC522 Metro MsTimer2 
-#   [N] NXPMotionSense [O] OSC OctoWS2811 OneWire 
-#   [P] PS2Keyboard PWMServo Ping PulsePosition [Q] QuadEncoder 
-#   [R] RadioHead ResponsiveAnalogRead [S] SD SPI SPIFlash 
-#   ST7565 ST7735_t3 SdFat SerialFlash Servo ShiftPWM 
-#   Snooze SoftPWM SoftwareSerial [T] TFT_ILI9163C Talkie 
-#   TeensyThreads Time TimeAlarms TimerOne TimerThree 
-#   TinyGPS Tlc5940 TouchScreen [U] USBHost_t36 UTFT 
-#   [V] VirtualWire [W] WS2812Serial Wire [X] XBee 
-#   XPT2046_Touchscreen [a] arduino_midi_library [i] i2c_t3 
-#   [k] ks0108 [o] openGLCD [s] ssd1351 [x] x10 
+#   FreqMeasure FreqMeasureMulti FrequencyTimer2 [I] ILI9341_t3 
+#   ILI9488_t3 IRremote [K] Keypad [L] LedControl 
+#   LedDisplay LiquidCrystal LiquidCrystalFast LowPower 
+#   [M] MFRC522 MIDI Metro MsTimer2 [N] NXPMotionSense [O] OSC 
+#   OctoWS2811 OneWire [P] PS2Keyboard PWMServo Ping 
+#   PulsePosition [Q] QuadEncoder [R] RA8875 RadioHead 
+#   ResponsiveAnalogRead [S] SD SPI SPIFlash ST7565 
+#   ST7735_t3 SerialFlash Servo ShiftPWM Snooze SoftPWM 
+#   SoftwareSerial [T] TFT_ILI9163C Talkie TeensyThreads 
+#   Time TimeAlarms TimerOne TimerThree TinyGPS Tlc5940 
+#   TouchScreen [U] USBHost_t36 UTFT [V] VirtualWire 
+#   [W] WS2812Serial Wire [X] XBee XPT2046_Touchscreen 
+#   [i] i2c_t3 [k] ks0108 [o] openGLCD [s] ssd1351 [x] x10 
 #
 APP_LIBS_LIST = Wire SPI USBHost_t36 Encoder Bounce2 EEPROM
 
@@ -50,8 +49,8 @@ APP_LIBS_LIST = Wire SPI USBHost_t36 Encoder Bounce2 EEPROM
 # !!! Help: http://bit.ly/2AEscDx
 # default = 0 = none
 #
-# USER = [A] Adafruit-GFX-Library Adafruit_RA8875 [G] GSL1680 
-#   [M] MIDIRouter_Lib [S] SdFat [a] arduino_midi_library 
+# USER = [A] Adafruit-GFX-Library Adafruit_RA8875 [G] GSL1680
+#   [S] SdFat [a] arduino_midi_library 
 #
 USER_LIBS_LIST = SdFat GSL1680 Adafruit-GFX-Library Adafruit_RA8875 arduino_midi_library
 
@@ -224,4 +223,7 @@ BUILDS_PATH       := $(BUILT_PRODUCTS_DIR)
 BUILDS_PATH_SPACE := $(BUILDS_PATH)
 
 include $(MAKEFILE_PATH)/Step1.mk
+
+
+
 

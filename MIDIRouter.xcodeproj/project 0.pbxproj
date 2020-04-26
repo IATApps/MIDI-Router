@@ -8,15 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		C50FE597245515AE00371593 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C50FE596245515AE00371593 /* main.cpp */; };
-		C50FE599245515AE00371593 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = C50FE598245515AE00371593 /* Makefile */; };
-		C50FE5AB245515AE00371593 /* MIDIRouter_Library.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5AA245515AE00371593 /* MIDIRouter_Library.cpp */; };
+		C50FE5F12455237200371593 /* name.c in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5EE2455237200371593 /* name.c */; };
+		C52FE5A9245515AE00371593 /* MIDIRouter_Library.h in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5A9245515AE00371593 /* MIDIRouter_Library.h */; };
+		C52FE5AC245515AE00371593 /* MIDIRouter.ino in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5AC245515AE00371593 /* MIDIRouter.ino */; };
+		C52FE5DF2455166100371593 /* MIDIRouter_Library_Defs.h in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5DF2455166100371593 /* MIDIRouter_Library_Defs.h */; };
+		C52FE5E02455167B00371593 /* MIDIRouter_Library_Namespace.h in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5E02455167B00371593 /* MIDIRouter_Library_Namespace.h */; };
+		C52FE5E1245518E800371593 /* MidiFilter.h in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5E1245518E800371593 /* MidiFilter.h */; };
+		C52FE5E2245518E800371593 /* MRIOInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5E2245518E800371593 /* MRIOInterface.h */; };
+		C52FE5E3245518E800371593 /* MRPorts.h in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5E3245518E800371593 /* MRPorts.h */; };
+		C52FE5E4245518E800371593 /* MRIOInterface.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5E4245518E800371593 /* MRIOInterface.hpp */; };
+		C52FE5E5245518E800371593 /* MidiFilter.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5E5245518E800371593 /* MidiFilter.hpp */; };
+		C52FE5E6245518E900371593 /* MRPorts.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5E6245518E900371593 /* MRPorts.hpp */; };
+		C52FE5E7245518F600371593 /* MIDIRouter_Library.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5E7245518F600371593 /* MIDIRouter_Library.hpp */; };
+		C52FE5E82455237000371593 /* ColorCalc.h in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5E82455237000371593 /* ColorCalc.h */; };
+		C52FE5E92455237000371593 /* MR_EEPROM.h in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5E92455237000371593 /* MR_EEPROM.h */; };
+		C52FE5EA2455237000371593 /* MR_TOUCH.h in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5EA2455237000371593 /* MR_TOUCH.h */; };
+		C52FE5EB2455237100371593 /* MR_DAC.h in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5EB2455237100371593 /* MR_DAC.h */; };
+		C52FE5EC2455237100371593 /* MR_DRAW.h in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5EC2455237100371593 /* MR_DRAW.h */; };
+		C52FE5ED2455237100371593 /* MR_TXT.h in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5ED2455237100371593 /* MR_TXT.h */; };
+		C52FE5EF2455237200371593 /* MR_MIDI.h in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5EF2455237200371593 /* MR_MIDI.h */; };
+		C52FE5F02455237200371593 /* MR_UTIL.h in Sources */ = {isa = PBXBuildFile; fileRef = C50FE5F02455237200371593 /* MR_UTIL.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C50FE593245515AE00371593 /* Index */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Index; sourceTree = BUILT_PRODUCTS_DIR; };
 		C50FE596245515AE00371593 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C50FE598245515AE00371593 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		C50FE59A245515AE00371593 /* Doxyfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
+		C50FE598245515AE00371593 /* Makefile */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		C50FE59A245515AE00371593 /* Doxyfile */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; path = Doxyfile; sourceTree = "<group>"; };
 		C50FE59B245515AE00371593 /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		C50FE59D245515AE00371593 /* Glowdeck (Bluetooth).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Glowdeck (Bluetooth).xcconfig"; sourceTree = "<group>"; };
 		C50FE59E245515AE00371593 /* Glowdeck (J-Link).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Glowdeck (J-Link).xcconfig"; sourceTree = "<group>"; };
@@ -31,8 +49,25 @@
 		C50FE5A7245515AE00371593 /* Teensy LC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Teensy LC.xcconfig"; sourceTree = "<group>"; };
 		C50FE5A8245515AE00371593 /* My Board.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "My Board.xcconfig"; sourceTree = "<group>"; };
 		C50FE5A9245515AE00371593 /* MIDIRouter_Library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIDIRouter_Library.h; sourceTree = "<group>"; };
-		C50FE5AA245515AE00371593 /* MIDIRouter_Library.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MIDIRouter_Library.cpp; sourceTree = "<group>"; };
-		C50FE5AC245515AE00371593 /* MIDIRouter.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = MIDIRouter.ino; sourceTree = "<group>"; };
+		C50FE5AC245515AE00371593 /* MIDIRouter.ino */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; path = MIDIRouter.ino; sourceTree = "<group>"; };
+		C50FE5DF2455166100371593 /* MIDIRouter_Library_Defs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIDIRouter_Library_Defs.h; sourceTree = "<group>"; };
+		C50FE5E02455167B00371593 /* MIDIRouter_Library_Namespace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIDIRouter_Library_Namespace.h; sourceTree = "<group>"; };
+		C50FE5E1245518E800371593 /* MidiFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MidiFilter.h; sourceTree = "<group>"; };
+		C50FE5E2245518E800371593 /* MRIOInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRIOInterface.h; sourceTree = "<group>"; };
+		C50FE5E3245518E800371593 /* MRPorts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRPorts.h; sourceTree = "<group>"; };
+		C50FE5E4245518E800371593 /* MRIOInterface.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MRIOInterface.hpp; sourceTree = "<group>"; };
+		C50FE5E5245518E800371593 /* MidiFilter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MidiFilter.hpp; sourceTree = "<group>"; };
+		C50FE5E6245518E900371593 /* MRPorts.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MRPorts.hpp; sourceTree = "<group>"; };
+		C50FE5E7245518F600371593 /* MIDIRouter_Library.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MIDIRouter_Library.hpp; sourceTree = "<group>"; };
+		C50FE5E82455237000371593 /* ColorCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorCalc.h; sourceTree = "<group>"; };
+		C50FE5E92455237000371593 /* MR_EEPROM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MR_EEPROM.h; sourceTree = "<group>"; };
+		C50FE5EA2455237000371593 /* MR_TOUCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MR_TOUCH.h; sourceTree = "<group>"; };
+		C50FE5EB2455237100371593 /* MR_DAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MR_DAC.h; sourceTree = "<group>"; };
+		C50FE5EC2455237100371593 /* MR_DRAW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MR_DRAW.h; sourceTree = "<group>"; };
+		C50FE5ED2455237100371593 /* MR_TXT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MR_TXT.h; sourceTree = "<group>"; };
+		C50FE5EE2455237200371593 /* name.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = name.c; sourceTree = "<group>"; };
+		C50FE5EF2455237200371593 /* MR_MIDI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MR_MIDI.h; sourceTree = "<group>"; };
+		C50FE5F02455237200371593 /* MR_UTIL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MR_UTIL.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -59,9 +94,17 @@
 				C50FE598245515AE00371593 /* Makefile */,
 				C50FE59A245515AE00371593 /* Doxyfile */,
 				C50FE59B245515AE00371593 /* ReadMe.txt */,
-				C50FE5A9245515AE00371593 /* MIDIRouter_Library.h */,
-				C50FE5AA245515AE00371593 /* MIDIRouter_Library.cpp */,
+				C50FE5F22455276B00371593 /* MIDIRouter_Library */,
 				C50FE5AC245515AE00371593 /* MIDIRouter.ino */,
+				C50FE5E82455237000371593 /* ColorCalc.h */,
+				C50FE5EB2455237100371593 /* MR_DAC.h */,
+				C50FE5EC2455237100371593 /* MR_DRAW.h */,
+				C50FE5E92455237000371593 /* MR_EEPROM.h */,
+				C50FE5EF2455237200371593 /* MR_MIDI.h */,
+				C50FE5EA2455237000371593 /* MR_TOUCH.h */,
+				C50FE5ED2455237100371593 /* MR_TXT.h */,
+				C50FE5F02455237200371593 /* MR_UTIL.h */,
+				C50FE5EE2455237200371593 /* name.c */,
 				C50FE59C245515AE00371593 /* Configurations */,
 			);
 			path = MIDIRouter;
@@ -86,16 +129,34 @@
 			path = Configurations;
 			sourceTree = "<group>";
 		};
+		C50FE5F22455276B00371593 /* MIDIRouter_Library */ = {
+			isa = PBXGroup;
+			children = (
+				C50FE5A9245515AE00371593 /* MIDIRouter_Library.h */,
+				C50FE5E7245518F600371593 /* MIDIRouter_Library.hpp */,
+				C50FE5DF2455166100371593 /* MIDIRouter_Library_Defs.h */,
+				C50FE5E02455167B00371593 /* MIDIRouter_Library_Namespace.h */,
+				C50FE5E2245518E800371593 /* MRIOInterface.h */,
+				C50FE5E4245518E800371593 /* MRIOInterface.hpp */,
+				C50FE5E3245518E800371593 /* MRPorts.h */,
+				C50FE5E6245518E900371593 /* MRPorts.hpp */,
+				C50FE5E1245518E800371593 /* MidiFilter.h */,
+				C50FE5E5245518E800371593 /* MidiFilter.hpp */,
+			);
+			path = MIDIRouter_Library;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
 		C50FE582245515AE00371593 /* Build */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "build -C \"$(PROJECT)\" -j";
+			buildArgumentsString = "build -j";
 			buildConfigurationList = C50FE5AF245515AE00371593 /* Build configuration list for PBXLegacyTarget "Build" */;
 			buildPhases = (
 			);
 			buildToolPath = make;
+			buildWorkingDirectory = "$(PROJECT)";
 			dependencies = (
 			);
 			name = Build;
@@ -104,11 +165,12 @@
 		};
 		C50FE583245515AE00371593 /* All */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "all -C \"$(PROJECT)\"";
+			buildArgumentsString = all;
 			buildConfigurationList = C50FE5B2245515AE00371593 /* Build configuration list for PBXLegacyTarget "All" */;
 			buildPhases = (
 			);
 			buildToolPath = make;
+			buildWorkingDirectory = "$(PROJECT)";
 			dependencies = (
 			);
 			name = All;
@@ -117,11 +179,12 @@
 		};
 		C50FE584245515AE00371593 /* Share */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "share -C \"$(PROJECT)\"";
+			buildArgumentsString = share;
 			buildConfigurationList = C50FE5B5245515AE00371593 /* Build configuration list for PBXLegacyTarget "Share" */;
 			buildPhases = (
 			);
 			buildToolPath = make;
+			buildWorkingDirectory = "$(PROJECT)";
 			dependencies = (
 			);
 			name = Share;
@@ -130,11 +193,12 @@
 		};
 		C50FE585245515AE00371593 /* Style */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "style -C \"$(PROJECT)\"";
+			buildArgumentsString = style;
 			buildConfigurationList = C50FE5B8245515AE00371593 /* Build configuration list for PBXLegacyTarget "Style" */;
 			buildPhases = (
 			);
 			buildToolPath = make;
+			buildWorkingDirectory = "$(PROJECT)";
 			dependencies = (
 			);
 			name = Style;
@@ -143,11 +207,12 @@
 		};
 		C50FE586245515AE00371593 /* Document */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "document -C \"$(PROJECT)\"";
+			buildArgumentsString = document;
 			buildConfigurationList = C50FE5BB245515AE00371593 /* Build configuration list for PBXLegacyTarget "Document" */;
 			buildPhases = (
 			);
 			buildToolPath = make;
+			buildWorkingDirectory = "$(PROJECT)";
 			dependencies = (
 			);
 			name = Document;
@@ -156,11 +221,12 @@
 		};
 		C50FE587245515AE00371593 /* Distribute */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "distribute -C \"$(PROJECT)\"";
+			buildArgumentsString = distribute;
 			buildConfigurationList = C50FE5BE245515AE00371593 /* Build configuration list for PBXLegacyTarget "Distribute" */;
 			buildPhases = (
 			);
 			buildToolPath = make;
+			buildWorkingDirectory = "$(PROJECT)";
 			dependencies = (
 			);
 			name = Distribute;
@@ -169,11 +235,12 @@
 		};
 		C50FE588245515AE00371593 /* Archive */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "archive -C \"$(PROJECT)\"";
+			buildArgumentsString = archive;
 			buildConfigurationList = C50FE5C1245515AE00371593 /* Build configuration list for PBXLegacyTarget "Archive" */;
 			buildPhases = (
 			);
 			buildToolPath = make;
+			buildWorkingDirectory = "$(PROJECT)";
 			dependencies = (
 			);
 			name = Archive;
@@ -182,11 +249,12 @@
 		};
 		C50FE589245515AE00371593 /* Unarchive */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "unarchive -C \"$(PROJECT)\"";
+			buildArgumentsString = unarchive;
 			buildConfigurationList = C50FE5C4245515AE00371593 /* Build configuration list for PBXLegacyTarget "Unarchive" */;
 			buildPhases = (
 			);
 			buildToolPath = make;
+			buildWorkingDirectory = "$(PROJECT)";
 			dependencies = (
 			);
 			name = Unarchive;
@@ -195,11 +263,12 @@
 		};
 		C50FE58A245515AE00371593 /* Boards */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "boards -C \"$(PROJECT)\"";
+			buildArgumentsString = boards;
 			buildConfigurationList = C50FE5C7245515AE00371593 /* Build configuration list for PBXLegacyTarget "Boards" */;
 			buildPhases = (
 			);
 			buildToolPath = make;
+			buildWorkingDirectory = "$(PROJECT)";
 			dependencies = (
 			);
 			name = Boards;
@@ -208,11 +277,12 @@
 		};
 		C50FE58B245515AE00371593 /* Serial */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "serial -C \"$(PROJECT)\"";
+			buildArgumentsString = serial;
 			buildConfigurationList = C50FE5CA245515AE00371593 /* Build configuration list for PBXLegacyTarget "Serial" */;
 			buildPhases = (
 			);
 			buildToolPath = make;
+			buildWorkingDirectory = "$(PROJECT)";
 			dependencies = (
 			);
 			name = Serial;
@@ -221,11 +291,12 @@
 		};
 		C50FE58C245515AE00371593 /* Upload */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "upload -C \"$(PROJECT)\"";
+			buildArgumentsString = upload;
 			buildConfigurationList = C50FE5CD245515AE00371593 /* Build configuration list for PBXLegacyTarget "Upload" */;
 			buildPhases = (
 			);
 			buildToolPath = make;
+			buildWorkingDirectory = "$(PROJECT)";
 			dependencies = (
 			);
 			name = Upload;
@@ -234,11 +305,12 @@
 		};
 		C50FE58D245515AE00371593 /* Clean */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "clean -C \"$(PROJECT)\"";
+			buildArgumentsString = clean;
 			buildConfigurationList = C50FE5D0245515AE00371593 /* Build configuration list for PBXLegacyTarget "Clean" */;
 			buildPhases = (
 			);
 			buildToolPath = make;
+			buildWorkingDirectory = "$(PROJECT)";
 			dependencies = (
 			);
 			name = Clean;
@@ -247,11 +319,12 @@
 		};
 		C50FE58E245515AE00371593 /* Make */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "make -C \"$(PROJECT)\"";
+			buildArgumentsString = make;
 			buildConfigurationList = C50FE5D3245515AE00371593 /* Build configuration list for PBXLegacyTarget "Make" */;
 			buildPhases = (
 			);
 			buildToolPath = make;
+			buildWorkingDirectory = "$(PROJECT)";
 			dependencies = (
 			);
 			name = Make;
@@ -260,11 +333,12 @@
 		};
 		C50FE58F245515AE00371593 /* Fast */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "fast -C \"$(PROJECT)\"";
+			buildArgumentsString = fast;
 			buildConfigurationList = C50FE5D6245515AE00371593 /* Build configuration list for PBXLegacyTarget "Fast" */;
 			buildPhases = (
 			);
 			buildToolPath = make;
+			buildWorkingDirectory = "$(PROJECT)";
 			dependencies = (
 			);
 			name = Fast;
@@ -273,11 +347,12 @@
 		};
 		C50FE590245515AE00371593 /* Debug */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "debug -C \"$(PROJECT)\"";
+			buildArgumentsString = debug;
 			buildConfigurationList = C50FE5D9245515AE00371593 /* Build configuration list for PBXLegacyTarget "Debug" */;
 			buildPhases = (
 			);
 			buildToolPath = make;
+			buildWorkingDirectory = "$(PROJECT)";
 			dependencies = (
 			);
 			name = Debug;
@@ -399,9 +474,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C50FE599245515AE00371593 /* Makefile in Sources */,
 				C50FE597245515AE00371593 /* main.cpp in Sources */,
-				C50FE5AB245515AE00371593 /* MIDIRouter_Library.cpp in Sources */,
+				C52FE5A9245515AE00371593 /* MIDIRouter_Library.h in Sources */,
+				C52FE5AC245515AE00371593 /* MIDIRouter.ino in Sources */,
+				C50FE5F12455237200371593 /* name.c in Sources */,
+				C52FE5AC245515AE00371593 /* MIDIRouter.ino in Sources */,
+				C52FE5E82455237000371593 /* ColorCalc.h in Sources */,
+				C52FE5EB2455237100371593 /* MR_DAC.h in Sources */,
+				C52FE5EC2455237100371593 /* MR_DRAW.h in Sources */,
+				C52FE5E92455237000371593 /* MR_EEPROM.h in Sources */,
+				C52FE5EF2455237200371593 /* MR_MIDI.h in Sources */,
+				C52FE5EA2455237000371593 /* MR_TOUCH.h in Sources */,
+				C52FE5ED2455237100371593 /* MR_TXT.h in Sources */,
+				C52FE5F02455237200371593 /* MR_UTIL.h in Sources */,
+				C52FE5A9245515AE00371593 /* MIDIRouter_Library.h in Sources */,
+				C52FE5E7245518F600371593 /* MIDIRouter_Library.hpp in Sources */,
+				C52FE5DF2455166100371593 /* MIDIRouter_Library_Defs.h in Sources */,
+				C52FE5E02455167B00371593 /* MIDIRouter_Library_Namespace.h in Sources */,
+				C52FE5E2245518E800371593 /* MRIOInterface.h in Sources */,
+				C52FE5E4245518E800371593 /* MRIOInterface.hpp in Sources */,
+				C52FE5E3245518E800371593 /* MRPorts.h in Sources */,
+				C52FE5E6245518E900371593 /* MRPorts.hpp in Sources */,
+				C52FE5E1245518E800371593 /* MidiFilter.h in Sources */,
+				C52FE5E5245518E800371593 /* MidiFilter.hpp in Sources */,
+				C52FE5AC245515AE00371593 /* MIDIRouter.ino in Sources */,
+				C52FE5E82455237000371593 /* ColorCalc.h in Sources */,
+				C52FE5EB2455237100371593 /* MR_DAC.h in Sources */,
+				C52FE5EC2455237100371593 /* MR_DRAW.h in Sources */,
+				C52FE5E92455237000371593 /* MR_EEPROM.h in Sources */,
+				C52FE5EF2455237200371593 /* MR_MIDI.h in Sources */,
+				C52FE5EA2455237000371593 /* MR_TOUCH.h in Sources */,
+				C52FE5ED2455237100371593 /* MR_TXT.h in Sources */,
+				C52FE5F02455237200371593 /* MR_UTIL.h in Sources */,
+				C52FE5A9245515AE00371593 /* MIDIRouter_Library.h in Sources */,
+				C52FE5E7245518F600371593 /* MIDIRouter_Library.hpp in Sources */,
+				C52FE5DF2455166100371593 /* MIDIRouter_Library_Defs.h in Sources */,
+				C52FE5E02455167B00371593 /* MIDIRouter_Library_Namespace.h in Sources */,
+				C52FE5E2245518E800371593 /* MRIOInterface.h in Sources */,
+				C52FE5E4245518E800371593 /* MRIOInterface.hpp in Sources */,
+				C52FE5E3245518E800371593 /* MRPorts.h in Sources */,
+				C52FE5E6245518E900371593 /* MRPorts.hpp in Sources */,
+				C52FE5E1245518E800371593 /* MidiFilter.h in Sources */,
+				C52FE5E5245518E800371593 /* MidiFilter.hpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +526,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C50FE5A5245515AE00371593 /* Teensy 3.6.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -472,7 +586,7 @@
 		C50FE5AE245515AE00371593 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
