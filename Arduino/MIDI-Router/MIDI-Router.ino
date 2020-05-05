@@ -53,7 +53,6 @@ Bounce encPush = Bounce();
 // Hardware and USB Device MIDI
 // https://github.com/FortySevenEffects/arduino_midi_library
 #include <MIDI.h>        // access to serial (5 pin DIN) MIDI
-#include <USBHost_t36.h> // access to USB MIDI devices (plugged into 2nd USB port)
 
 // Create the Serial MIDI ports
 // MIDI_CREATE_INSTANCE(Type, SerialPort, Name) 
@@ -73,6 +72,7 @@ midi::MidiInterface<HardwareSerial> * dinlist[5] = {
 };
 */
 
+#include <USBHost_t36.h> // access to USB MIDI devices (plugged into 2nd USB port)
 // Create the ports for USB devices plugged into Teensy's 2nd USB port (via hubs)
 USBHost myusb;
 USBHub hub1(myusb);
@@ -194,24 +194,6 @@ int curRot = 2;
 // devices
 int rows = 6;
 int columns = 6;
-//String  inputNames[] = { 
-//  "Midi1", "Midi2", "Midi3", "Midi4", "Midi5", "Midi6",    // page 0
-//  "USB1", "USB2", "USB3", "USB4", "USB5", "USB6",         // page 1
-//  "USB7", "USB8", "USB9", "USB10", "", "",               // page 2
-//  "Comp1", "Comp2", "Comp3", "Comp4", "Comp5", "Comp6",           // page 3
-//  "Comp7", "Comp8", "Comp9", "Comp10", "Comp11", "Comp12",           // page 4
-//  "Comp13", "Comp14", "Comp15", "Comp16", "intClock", "extClock"                 // page 5
-//}; 
-//
-//String  outputNames[] = { 
-//  "Midi1", "Midi2", "Midi3", "Midi4", "Midi5", "Midi6",    // page 0
-//  "USB1", "USB2", "USB3", "USB4", "USB5", "USB6",         // page 1
-//  "USB7", "USB8", "USB9", "USB10", "", "",               // page 2
-//  "Comp1", "Comp2", "Comp3", "Comp4", "Comp5", "Comp6",           // page 3
-//  "Comp7", "Comp8", "Comp9", "Comp10", "Comp11", "Comp12",           // page 4
-//  "Comp13", "Comp14", "Comp15", "Comp16", "", "",                 // page 5
-//  "CV1", "CV2", "CV3", "CV4", "CV5", "CV6"           // page 6
-//}; 
 
 // Sysex
 uint8_t sysexIDReq[] = {240, 126, 127, 6, 1, 247};

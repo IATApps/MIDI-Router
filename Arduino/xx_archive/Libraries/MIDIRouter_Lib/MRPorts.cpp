@@ -18,6 +18,8 @@ bool MRPort::active() {
 	return true;
 }
 
+// MARK: - MRInputPort
+
 unsigned int MRInputPort::inputPortCount = 0;
 
 MRInputPort::MRInputPort(const char *displayName) : MRPort(displayName, inputPortCount) {
@@ -26,10 +28,38 @@ MRInputPort::MRInputPort(const char *displayName) : MRPort(displayName, inputPor
 	}
 }
 
+// MARK: - MROutputPort
+
 unsigned int MROutputPort::outputPortCount = 0;
 
 MROutputPort::MROutputPort(const char *displayName) : MRPort(displayName, outputPortCount) {
 	if (active()) {
 		outputPortCount += 1;
 	}
+}
+
+// MARK: - MRIOInterface
+
+MRIOInterface::MRIOInterface(unsigned char inPort, unsigned char outPort) {
+	input = inPort
+	output = outPort
+}
+
+// MARK: - MRIO_MidiHardwareSerialInterface
+
+MRIO_MidiHardwareSerialInterface::MRIO_MidiHardwareSerialInterface(unsigned char inPort, unsigned char outPort, SerialPort& inSerial) :  MRIOInterface(inPort, outPort) {
+	// #define MIDI_CREATE_INSTANCE(Type, SerialPort, Name)
+	// 		midi::MidiInterface<Type> Name((Type&)SerialPort);
+	
+	interface = midi::MidiInterface<HardwareSerial>(inSerial)
+}
+
+// MARK: - MRIO_MidiUSBClientInterface
+
+MRIO_MidiUSBClientInterface::MRIO_MidiUSBClientInterface(unsigned char inPort, unsigned char outPort) :  MRIOInterface(inPort, outPort) {
+}
+
+// MARK: - MRIO_MidiUSBHostInterface
+
+MRIO_MidiUSBHostInterface::MRIO_MidiUSBHostInterface(unsigned char inPort, unsigned char outPort) :  MRIOInterface(inPort, outPort) {
 }
